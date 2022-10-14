@@ -1,0 +1,19 @@
+.successAlert, .errorAlert, .pendingAlert {
+    width: 200px;
+    transition: all 0.2s ease-in-out;
+}
+
+.successAlert {
+    background: var(--success-bg);
+    border : 1px solid #128B08;
+}
+
+.errorAlert {
+    background: var(--error-bg);
+    border: 1px solid #8B0808;
+}
+
+.pendingAlert {
+    background: var(--pending-bg);
+    border: 1px solid #DCC264;
+}

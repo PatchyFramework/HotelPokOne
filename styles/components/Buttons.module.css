@@ -1,0 +1,60 @@
+.loginButton, .registerButton, .lanjutButton, .infoButton, .logoutButton, .batalButton {
+    width: 120px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.loginButton {
+    background: var(--btn-bg);
+    border: 1px solid #2E31F2;
+
+}
+
+.loginButton:hover {
+    background: var(--darker-btn-bg);
+}
+
+.registerButton {
+    background: transparent;
+    border: 2px solid var(--btn-bg);
+}
+
+.registerButton:hover {
+    background: var(--btn-bg);
+}
+
+.lanjutButton {
+    background: var(--btn-bg);
+    border: 1px solid #2E31F2;
+}
+
+.lanjutButton:hover {
+    background: var(--darker-btn-bg);
+}
+
+.infoButton {
+    background: var(--success-bg);
+    border: 1px solid #23D24A;
+}
+
+.infoButton:hover {
+    background: var(--darker-success-bg);
+}
+
+.logoutButton {
+    background: var(--error-bg);
+    border: 1px solid #B70505;
+}
+
+.logoutButton:hover {
+    background: var(--darker-error-bg);
+}
+
+.batalButton {
+    background: var(--abort-bg);
+    border: 1px solid #8B0808;
+}
+
+.batalButton:hover {
+    background: var(--darker-abort-bg);
+}

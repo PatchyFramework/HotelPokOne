@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700&display=swap');
+
+.font {
+    font-family: 'Prompt', sans-serif;
+  }
+
+.fontItem a {
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.fontItem a:hover {
+    color: var(--btn-bg);
+}
+
+.fontItem a:active {
+    color: var(--darker-btn-bg);
+}
+
+.booking {
+    width: 80%;
+}

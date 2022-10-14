@@ -1,9 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+  --pending-bg: rgba(234,217,70,50%);
+  --darker-error-bg: #FF4E4E;
+  --error-bg: #EF5D5D;
+  --darker-success-bg: #4ECC6A;
+  --success-bg: #A1FFB6;
+  --bg: #FBFAFA;
+  --black: #3D3B3B;
+  --btn-bg: #5D5FEF;
+  --darker-btn-bg: #4548EE;
+  --abort-bg: #FF9B9B;
+  --darker-abort-bg: #FD7777;
+}
+
+* {
+  font-family: 'Prompt', sans-serif;
+}
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -15,7 +38,15 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+.title {
+  color: var(--black);
+}
+
+.btn-bg {
+  background-color: var(--btn-bg);
+}
+
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +54,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
